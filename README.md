@@ -3,7 +3,8 @@
 [English](#english) | [Türkçe](#türkçe)
 
 ---
-
+![Dolphin SHA-1 Menü Ekran Görüntüsü](sha1sum.jpg)
+![Dolphin SHA-1 Menü Ekran Görüntüsü](sha1sum1.jpg)
 ## English
 
 A lightweight KDE Dolphin Service Menu that calculates and displays the SHA-1 checksum of any file directly from the context menu and automatically copies it to your clipboard.
