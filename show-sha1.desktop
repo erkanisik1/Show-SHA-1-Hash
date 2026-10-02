@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=all/all;
+Actions=showSHA1;
+
+[Desktop Action showSHA1]
+Name=Show SHA-1 Hash
+Name[tr]=SHA-1 Değerini Göster
+Icon=dialog-information
+Exec=sh -c 'h=$(sha1sum "%f" | cut -d" " -f1); echo -n "$h" | xclip -selection clipboard 2>/dev/null || echo -n "$h" | wl-copy 2>/dev/null; kdialog --title "SHA-1 Hash" --inputbox "SHA-1 Hash (Copied to clipboard / Panoya kopyalandı):" "$h"'
